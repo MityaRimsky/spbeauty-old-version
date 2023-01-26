@@ -24,13 +24,13 @@ function IconsRow() {
         <div className='d-inline-flex flex-row align-items-center align-self-center'>
             <ButtonLeftWrapper>
                 <Clickable>
-                    <div className="text-rg-bd">Сообщения (0)</div>
-                </Clickable>
+                <IconOnlyButton icon={<MessagesIcon/>}/>
+                      </Clickable>
             </ButtonLeftWrapper>
             <ButtonRightWrapper>
                 <Clickable>
-                    <div className="text-rg-bd">Оповещения (0)</div>
-                </Clickable>
+                <IconOnlyButton icon={<NotificationsIcon/>}/>
+                     </Clickable>
             </ButtonRightWrapper>
         </div>
     );
