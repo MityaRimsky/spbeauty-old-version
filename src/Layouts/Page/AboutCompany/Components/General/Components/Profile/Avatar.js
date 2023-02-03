@@ -8,7 +8,7 @@ const UploadButton = styled.div`
     right: 0px;
     top:100%;
     transform: translateY(-100%);
-`;
+    `;
 const WrapperAvatar = styled.div`
     position:relative;
     width: 96px;
